@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title></title>
+</head>
+
+<body class="bg-black">
+    <section>
+        <div class="loding">
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </div>
+    </section>
+    <aside class="bg-white d-flex">
+        <div class="sidbar bg-black d-flex flex-column justify-content-between">
+            <ul class="fs-6 d-flex flex-column justify-content-around text-white">
+                <li id="mainSearch" class="animation  "><a href="#">Search</a></li>
+                <li id="mainCategories" class="animation  "><a href="#">Categories</a></li>
+                <li id="mainArea" class="animation  "><a href="#">Area</a></li>
+                <li id="mainingredients" class="animation  "><a href="#">Ingredients</a></li>
+                <li id="ContactUs" class="animation  "><a href="#">Contact us</a></li>
+            </ul>
+            <div class="icons text-white">
+                <i class="fab fa-facebook-f cursol"></i>
+                <i class="fab fa-twitter cursol"></i>
+                <i class="fa-solid fa-globe cursol"></i>
+                <p>Copyright Â© 2019 All
+                    Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="mainSide d-flex flex-column justify-content-between py-3 bg-white">
+            <div class="logo">
+                <img src="imgs/logo.png" class="w-100" alt="logo">
+            </div>
+            <div class="ferstTowIcons text-center">
+                <div class="open">
+                    <i class="fa-solid fa-bars fa-2x cursol"></i>
+                </div>
+                <div class="close d-none">
+                    <i class="fa-solid fa-xmark fa-2x cursol  myIcon"></i>
+                </div>
+            </div>
+
+            <div class="secondTowIcons d-flex flex-column gap-1">
+                <i class="fa-solid fa-globe cursol"></i>
+                <i class="fa-solid fa-share-nodes cursol"></i>
+            </div>
+        </div>
+    </aside>
+
+    <section class="">
+
+        <!-- section 1 main    displayDetails() ,getCategories()-->
+        <section id="sec1" class=" py-5 ">
+            <div class="container">
+                <div id="rowData" class="row pt-5 g-4">
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="">
+        <!-- section 2   Search by name $ litter api-->
+        <section id="sec2" class="d-none  py-5">
+            <div class="container">
+                <div class="row g-4 animate__animated animate__backInUp">
+                    <div class="col-lg-6">
+                        <div class="input-group mb-3">
+                            <input id="searchInput" type="text" class="form-control"
+                                placeholder="Search by name Such as {egg}" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                            <button id="search-Btn" class="btn btn-outline-info" type="button"
+                                id="button-addon2">Button</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="input-group mb-3">
+                            <input id="searchByLitter" type="text" class="form-control"
+                                placeholder="search by first Litter" aria-label="Recipient's username"
+                                aria-describedby="button-addon2">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mainDetails" style="height: 150%;" class="row py-5 g-4 ">
+
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
